@@ -5,9 +5,9 @@ export PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION=python
 
 set -eou pipefail
 
-nj=15
-stage=-1
-stop_stage=11
+nj=4
+stage=30
+stop_stage=30
 perturb_speed=true
 
 # We assume dl_dir (download dir) contains the following
